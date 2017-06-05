@@ -1,0 +1,21 @@
+{
+	"name": "kehikko/bin",
+	"description": "File handler for uploads and such",
+	"license": "MIT",
+	"authors": [
+	{
+		"name": "Antti Partanen",
+		"email": "aehparta@iki.fi"
+	}],
+	"require":
+	{
+		"php": ">=7.0.0"
+	},
+	"autoload":
+	{
+		"psr-4":
+		{
+			"Bin\\": ""
+		}
+	}
+}
